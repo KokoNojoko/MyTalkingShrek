@@ -120,7 +120,14 @@
             android:layout_width="300dp"
             android:layout_height="300dp"
             android:layout_gravity="center"
-            android:src="@drawable/clean"/>
+            android:src="@drawable/sade_donkey"
+           />
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/happy_donkey"
+            android:visibility="gone"/>
 
     </LinearLayout>
 </LinearLayout>

@@ -4,17 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#8BC34A"
-    android:id="@+id/frameLayout"
-    tools:context=".PetFragment">
+    android:id="@+id/frameLayout">
 
     <TextView
         android:id="@+id/lblHeading"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MY TALKING BABY SHREK"
+        android:text="MY TALKING SHREK"
         android:textStyle="bold"
         android:textColor="@color/white"
-        android:textSize="50sp"/>
+        android:textSize="50sp"
+        android:gravity="center"/>
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -62,28 +62,31 @@
                 android:id="@+id/Food"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
-                android:layout_marginEnd="18dp"
                 android:layout_marginTop="140dp"
+                android:layout_marginEnd="18dp"
                 android:layout_marginBottom="20dp"
-                tools:src="@drawable/hunger" />
+                android:background="#00FFFFFF"
+                android:foreground="@drawable/hunger" />
 
             <ImageButton
                 android:id="@+id/Drink"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
-                android:layout_marginEnd="18dp"
                 android:layout_marginTop="20dp"
+                android:layout_marginEnd="18dp"
                 android:layout_marginBottom="20dp"
-                tools:src="@drawable/thirst" />
+                android:background="#00FFFFFF"
+                android:foreground="@drawable/thirst" />
 
             <ImageButton
                 android:id="@+id/Wash"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
-                android:layout_marginEnd="18dp"
                 android:layout_marginTop="20dp"
+                android:layout_marginEnd="18dp"
                 android:layout_marginBottom="20dp"
-                tools:src="@drawable/clean" />
+                android:backgroundTint="#00FFFFFF"
+                android:foreground="@drawable/clean" />
 
 
         </LinearLayout>
